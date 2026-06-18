@@ -1,0 +1,285 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "autoname": "AP-.####",
+ "creation": "2026-06-12 13:13:28.602519",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_details",
+  "customer_details_section",
+  "customer_id",
+  "customer_type",
+  "segment",
+  "branch",
+  "risk_rating",
+  "kyc_status",
+  "column_break_sjmf",
+  "customer_name",
+  "national_id",
+  "sector",
+  "relationship_manager",
+  "default_reason",
+  "section_contact",
+  "mobile",
+  "email",
+  "column_break_gxtw",
+  "phone",
+  "address",
+  "tab_financial",
+  "total_exposure",
+  "dpd_delinquency",
+  "column_break_lwfe",
+  "outstanding",
+  "section_break_fyau",
+  "data_pesa",
+  "column_break_rjmg"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_details",
+   "fieldtype": "Tab Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer ID",
+   "read_only": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "customer_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer Type",
+   "options": "Customer Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "segment",
+   "fieldtype": "Link",
+   "label": "Segment",
+   "options": "Segment"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch"
+  },
+  {
+   "fieldname": "risk_rating",
+   "fieldtype": "Link",
+   "label": "Risk Rating",
+   "options": "Risk Rating"
+  },
+  {
+   "fieldname": "kyc_status",
+   "fieldtype": "Link",
+   "label": "KYC Status",
+   "options": "KYC Status"
+  },
+  {
+   "fieldname": "column_break_sjmf",
+   "fieldtype": "Column Break",
+   "is_virtual": 1
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "national_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "National ID / CR No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sector",
+   "fieldtype": "Link",
+   "label": "Sector",
+   "options": "Sector"
+  },
+  {
+   "fieldname": "relationship_manager",
+   "fieldtype": "Data",
+   "label": "Relationship Manager"
+  },
+  {
+   "fieldname": "default_reason",
+   "fieldtype": "Small Text",
+   "label": "Default Reason"
+  },
+  {
+   "fieldname": "section_contact",
+   "fieldtype": "Section Break",
+   "label": "Contact and Address"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Phone",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "column_break_gxtw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Phone",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "tab_financial",
+   "fieldtype": "Tab Break",
+   "label": "Financial Info"
+  },
+  {
+   "fieldname": "total_exposure",
+   "fieldtype": "Currency",
+   "label": "Total Exposure"
+  },
+  {
+   "fieldname": "dpd_delinquency",
+   "fieldtype": "Int",
+   "label": "DPD / Delinquency"
+  },
+  {
+   "fieldname": "column_break_lwfe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "outstanding",
+   "fieldtype": "Currency",
+   "label": "Outstanding"
+  },
+  {
+   "fieldname": "section_break_fyau",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data_pesa",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "column_break_rjmg",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-15 11:16:54.113830",
+ "modified_by": "Administrator",
+ "module": "Power Legal",
+ "name": "Adverse Party",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Officer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Viewer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Compliance Officer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Branch Manager",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal System Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "customer_id, customer_name, national_id",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "customer_name"
+}

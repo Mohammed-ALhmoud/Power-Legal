@@ -256,3 +256,8 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+
+# App CSS
+app_include_css = [
+    "/assets/power_legal/css/power_legal.css"
+]

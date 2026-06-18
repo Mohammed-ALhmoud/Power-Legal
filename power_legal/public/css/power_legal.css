@@ -1,0 +1,123 @@
+/* v0.2 */
+/* Main background */
+body {
+  background: #F5F7FA !important;
+}
+
+/* Sidebar container */
+.body-sidebar-container {
+  background: #FFFFFF !important;
+  border-right: 1px solid #E2E8F0 !important;
+}
+
+/* Main section */
+.main-section {
+  background: #F5F7FA !important;
+}
+
+/* Top bar */
+header.container-fluid,
+.container-fluid.sticky-top {
+  background: #FFFFFF !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
+}
+
+/* Sidebar items */
+.standard-sidebar-item a,
+.sidebar-item a {
+  color: #2D3748 !important;
+  border-radius: 6px !important;
+  font-size: 13px !important;
+}
+
+.standard-sidebar-item a:hover,
+.sidebar-item a:hover {
+  background: #E8F0F7 !important;
+  color: #2C5F8A !important;
+}
+
+.standard-sidebar-item.selected a,
+.sidebar-item.selected a {
+  background: #E8F0F7 !important;
+  color: #2C5F8A !important;
+  font-weight: 500 !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #2C5F8A !important;
+  border-color: #2C5F8A !important;
+  border-radius: 6px !important;
+}
+
+.btn-primary:hover {
+  background: #1a3a6b !important;
+  border-color: #1a3a6b !important;
+}
+
+/* Cards */
+.workspace-card,
+.widget.card-widget {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04) !important;
+}
+
+/* Number cards */
+.number-card,
+.widget.number-card-widget {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04) !important;
+}
+
+/* Form */
+.form-control,
+.input-with-feedback {
+  border-color: #E2E8F0 !important;
+  border-radius: 6px !important;
+}
+
+.form-control:focus {
+  border-color: #2C5F8A !important;
+  box-shadow: 0 0 0 2px rgba(44,95,138,0.1) !important;
+}
+
+/* Page head */
+.page-head {
+  background: #FFFFFF !important;
+  border-bottom: 1px solid #E2E8F0 !important;
+}
+
+/* List view */
+.list-row:hover {
+  background: #E8F0F7 !important;
+}
+
+/* Tabs */
+.nav-tabs .nav-link.active {
+  color: #2C5F8A !important;
+  border-bottom: 2px solid #2C5F8A !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F7FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E0;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}

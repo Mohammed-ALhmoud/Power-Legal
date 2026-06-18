@@ -1,0 +1,201 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "autoname": "HS-.#####",
+ "creation": "2026-06-14 09:29:49.610565",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_details",
+  "section_break_yyzr",
+  "legal_case",
+  "hearing_date",
+  "court_name",
+  "judge_name",
+  "column_break_xnxr",
+  "hearing_type",
+  "status",
+  "next_hearing_date",
+  "assigned_lawyer",
+  "tab_notes",
+  "hearing_summary",
+  "court_decision",
+  "next_steps"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_details",
+   "fieldtype": "Tab Break",
+   "label": "Hearing Details"
+  },
+  {
+   "fieldname": "legal_case",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Legal Case",
+   "options": "Legal Case",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hearing_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Hearing Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "court_name",
+   "fieldtype": "Data",
+   "label": "Court Name"
+  },
+  {
+   "fieldname": "judge_name",
+   "fieldtype": "Data",
+   "label": "Judge Name"
+  },
+  {
+   "fieldname": "column_break_xnxr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "hearing_type",
+   "fieldtype": "Select",
+   "label": "Hearing Type",
+   "options": "Preliminary\nMain Hearing\nJudgment\nAdjourned\nSettlement"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Scheduled\nCompleted\nAdjourned\nCancelled",
+   "reqd": 1
+  },
+  {
+   "fieldname": "next_hearing_date",
+   "fieldtype": "Date",
+   "label": "Next Hearing Date"
+  },
+  {
+   "fieldname": "assigned_lawyer",
+   "fieldtype": "Data",
+   "label": "Assigned Lawyer"
+  },
+  {
+   "fieldname": "section_break_yyzr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tab_notes",
+   "fieldtype": "Tab Break",
+   "label": "Hearing Notes"
+  },
+  {
+   "fieldname": "hearing_summary",
+   "fieldtype": "Text Editor",
+   "label": "Hearing Summary"
+  },
+  {
+   "fieldname": "court_decision",
+   "fieldtype": "Text Editor",
+   "label": "Court Decision"
+  },
+  {
+   "fieldname": "next_steps",
+   "fieldtype": "Text Editor",
+   "label": "Next Steps"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-15 11:20:02.673596",
+ "modified_by": "Administrator",
+ "module": "Power Legal",
+ "name": "Hearing Session",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Officer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal Viewer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Compliance Officer",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Branch Manager",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Legal System Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "legal_case"
+}
