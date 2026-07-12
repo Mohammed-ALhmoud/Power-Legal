@@ -258,6 +258,4 @@ app_license = "mit"
 
 
 # App CSS
-app_include_css = [
-    "/assets/power_legal/css/power_legal.css"
-]
+app_include_css = ["/assets/power_legal/css/power_legal.css"]
