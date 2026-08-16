@@ -1,7 +1,7 @@
 ### Power Legal
 
 Legal App
-
+v 1.0
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
